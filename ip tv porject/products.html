@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPTV Plans - StreamMax</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <i class="fas fa-tv"></i>
+          <span>StreamMax</span>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="index.html#features" class="nav-link">Features</a>
+          <a href="products.html" class="nav-link active">Plans</a>
+          <a href="index.html#testimonials" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#pricing" class="nav-cta">Get Started</a>
+        </div>
+        <div class="nav-hamburger" id="nav-hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Products Hero -->
+    <section class="products-hero">
+      <div class="container">
+        <div class="section-header">
+          <h1>Choose Your Perfect Plan</h1>
+          <p>Flexible IPTV subscription plans designed for every household</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="pricing-toggle">
+          <span class="toggle-label">Monthly</span>
+          <label class="toggle-switch">
+            <input type="checkbox" id="pricing-toggle" />
+            <span class="toggle-slider"></span>
+          </label>
+          <span class="toggle-label"
+            >Yearly <span class="discount-badge">Save 20%</span></span
+          >
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Basic Plan -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Basic</h3>
+              <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="amount" data-monthly="15" data-yearly="12"
+                  >15</span
+                >
+                <span class="period">/month</span>
+              </div>
+              <p class="pricing-description">Perfect for individuals</p>
+            </div>
+            <div class="pricing-features">
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>5,000+ Live Channels</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>10,000+ VOD Movies</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>1 Device Connection</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>HD Quality (1080p)</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>24/7 Support</span>
+              </div>
+              <div class="feature disabled">
+                <i class="fas fa-times"></i>
+                <span>4K/8K Streaming</span>
+              </div>
+              <div class="feature disabled">
+                <i class="fas fa-times"></i>
+                <span>Premium Sports</span>
+              </div>
+            </div>
+            <button class="btn btn-outline pricing-btn">Choose Basic</button>
+          </div>
+
+          <!-- Pro Plan (Most Popular) -->
+          <div class="pricing-card featured">
+            <div class="popular-badge">Most Popular</div>
+            <div class="pricing-header">
+              <h3>Pro</h3>
+              <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="amount" data-monthly="25" data-yearly="20"
+                  >25</span
+                >
+                <span class="period">/month</span>
+              </div>
+              <p class="pricing-description">Best for families</p>
+            </div>
+            <div class="pricing-features">
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>10,000+ Live Channels</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>25,000+ VOD Movies</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>3 Device Connections</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>4K Quality Streaming</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Premium Sports Channels</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>International Content</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Priority Support</span>
+              </div>
+            </div>
+            <button class="btn btn-primary pricing-btn">Choose Pro</button>
+          </div>
+
+          <!-- Premium Plan -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Premium</h3>
+              <div class="pricing-price">
+                <span class="currency">$</span>
+                <span class="amount" data-monthly="35" data-yearly="28"
+                  >35</span
+                >
+                <span class="period">/month</span>
+              </div>
+              <p class="pricing-description">Ultimate experience</p>
+            </div>
+            <div class="pricing-features">
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>15,000+ Live Channels</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>50,000+ VOD Movies</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>5 Device Connections</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>8K Quality Streaming</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>All Premium Sports</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>Global Content Library</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-check"></i>
+                <span>VIP Support & Setup</span>
+              </div>
+            </div>
+            <button class="btn btn-outline pricing-btn">Choose Premium</button>
+          </div>
+        </div>
+
+        <!-- Subscription Periods -->
+        <div class="subscription-periods">
+          <h3>Flexible Subscription Options</h3>
+          <div class="periods-grid">
+            <div class="period-card">
+              <div class="period-icon">
+                <i class="fas fa-calendar-day"></i>
+              </div>
+              <h4>1 Month</h4>
+              <p>Try risk-free</p>
+              <span class="period-price">From $15/month</span>
+            </div>
+            <div class="period-card popular">
+              <div class="period-badge">Best Value</div>
+              <div class="period-icon">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              <h4>3 Months</h4>
+              <p>Save 10%</p>
+              <span class="period-price">From $40.50 total</span>
+            </div>
+            <div class="period-card">
+              <div class="period-icon">
+                <i class="fas fa-calendar"></i>
+              </div>
+              <h4>6 Months</h4>
+              <p>Save 15%</p>
+              <span class="period-price">From $76.50 total</span>
+            </div>
+            <div class="period-card">
+              <div class="period-icon">
+                <i class="fas fa-calendar-check"></i>
+              </div>
+              <h4>12 Months</h4>
+              <p>Save 20%</p>
+              <span class="period-price">From $144 total</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Comparison -->
+    <section class="features-comparison">
+      <div class="container">
+        <div class="section-header">
+          <h2>Compare All Features</h2>
+          <p>See what's included in each plan</p>
+        </div>
+        <div class="comparison-table">
+          <div class="table-header">
+            <div class="feature-column">Features</div>
+            <div class="plan-column">Basic</div>
+            <div class="plan-column">Pro</div>
+            <div class="plan-column">Premium</div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">Live TV Channels</div>
+            <div class="feature-value">5,000+</div>
+            <div class="feature-value">10,000+</div>
+            <div class="feature-value">15,000+</div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">VOD Movies & Shows</div>
+            <div class="feature-value">10,000+</div>
+            <div class="feature-value">25,000+</div>
+            <div class="feature-value">50,000+</div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">Device Connections</div>
+            <div class="feature-value">1</div>
+            <div class="feature-value">3</div>
+            <div class="feature-value">5</div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">Streaming Quality</div>
+            <div class="feature-value">HD (1080p)</div>
+            <div class="feature-value">4K Ultra HD</div>
+            <div class="feature-value">8K Ultra HD</div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">Sports Channels</div>
+            <div class="feature-value"><i class="fas fa-times"></i></div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">International Content</div>
+            <div class="feature-value">Limited</div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="table-row">
+            <div class="feature-name">24/7 Support</div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+            <div class="feature-value"><i class="fas fa-check"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about our IPTV service</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>How quickly can I start streaming?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Your account is activated instantly after payment. You'll
+                receive your login credentials within minutes and can start
+                streaming immediately on any device.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>What devices are supported?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our service works on all major devices including Smart TVs,
+                Android/iOS devices, Amazon Fire Stick, Apple TV, MAG boxes, and
+                computers. We provide setup guides for each platform.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Do you offer refunds?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we offer a 7-day money-back guarantee. If you're not
+                satisfied with our service, contact us within 7 days for a full
+                refund.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Is there a contract or long-term commitment?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                No contracts required! You can choose monthly subscriptions or
+                save more with longer periods. Cancel anytime without penalties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <i class="fas fa-tv"></i>
+              <span>StreamMax</span>
+            </div>
+            <p>
+              Premium IPTV streaming service delivering the best entertainment
+              experience worldwide.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Live TV</a></li>
+              <li><a href="#">Movies & Shows</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">International</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Setup Guide</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Live Chat</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 StreamMax IPTV. All rights reserved.</p>
+    </div>
+      </div>
+    </footer>
+
+    <!-- Live Chat Window -->
+    <div id="chat-window" class="chat-window">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fas fa-comments"></i>
+                <span>Live Chat Support</span>
+            </div>
+            <button class="chat-close" id="chat-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-body">
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! Welcome to StreamMax support. How can I help you today?</p>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" class="chat-input" placeholder="Type your message...">
+                <button class="chat-send" id="chat-send">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
