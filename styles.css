@@ -910,6 +910,24 @@ input:checked + .toggle-slider:before {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    box-shadow: 
+        0 0 20px rgba(255, 215, 0, 0.1),
+        0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: cardGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes cardGlow {
+    0% {
+        box-shadow: 
+            0 0 20px rgba(255, 215, 0, 0.1),
+            0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 
+            0 0 30px rgba(255, 215, 0, 0.2),
+            0 0 40px rgba(255, 215, 0, 0.1),
+            0 4px 15px rgba(0, 0, 0, 0.2);
+    }
 }
 
 .feature-card::before {
@@ -926,8 +944,12 @@ input:checked + .toggle-slider:before {
 
 .feature-card:hover {
     transform: translateY(-8px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 
+        0 0 40px rgba(255, 215, 0, 0.3),
+        0 0 60px rgba(255, 215, 0, 0.2),
+        0 10px 30px rgba(0, 0, 0, 0.3);
     border-color: var(--primary-color);
+    animation: none;
 }
 
 .feature-card:hover::before {
